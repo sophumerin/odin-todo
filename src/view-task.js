@@ -32,7 +32,7 @@ export default (task) => {
         event.preventDefault();
         descriptionP.classList.remove("hidden");
     })
-    console.log(taskDivChildren);
+    
     taskDiv.replaceChildren(...taskDivChildren);
     
     return taskDiv;
